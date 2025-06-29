@@ -4,7 +4,7 @@
 	"description": "Backend for a social media platform",
 	"main": "src/app.js",
 	"scripts": {
-		"start": "node src/app.js",
+		"start": "node app.js",
 		"dev": "nodemon src/app.js",
 		"start:verbose": "LOG_LEVEL=verbose node src/app.js",
 		"start:critical": "LOG_LEVEL=critical node src/app.js",
